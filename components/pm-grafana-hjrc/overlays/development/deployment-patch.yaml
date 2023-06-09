@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: pm-grafana-hjrc
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/msawood-tenant/pm-grafana/pm-grafana-hjrc@sha256:e1040d7f65922bb5971dd3a6330c6da2a0c5360252589a6cb0efc54981ce7cf2
+        name: grafana
+        resources: {}
+status: {}
