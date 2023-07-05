@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: pm-grafana-hjrc
     app.kubernetes.io/part-of: pm-grafana
-  name: pm-grafana-hjrcbxhh
+  name: pm-grafana-hjrcodxu
 spec:
   port:
     targetPort: 3000
