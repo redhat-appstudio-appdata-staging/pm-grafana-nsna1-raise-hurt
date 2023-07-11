@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: pm-grafana-hjrc
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
